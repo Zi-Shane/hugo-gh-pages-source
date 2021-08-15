@@ -175,7 +175,7 @@ hugo
 在GitHub上建一個Repository，名稱要是`<User-Name>.github.io`，然後把剛剛的public資料夾，push到這個Repository，GitHub會自動Host這個Repository所以在網址列輸入以下網址，就可以看到你的網站成功部屬到GitHub Page
 
 ```
-https://Zi-Shane.github.io
+https://<User-Name>.github.io
 ```
 
 ---
