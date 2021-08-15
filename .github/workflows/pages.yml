@@ -29,8 +29,8 @@ jobs:
         PUBLISH_BRANCH: main
         PUBLISH_DIR: ./public
       with:
-        deploy_key: ${{ ACTIONS_DEPLOY_KEY }}
-        external_repository: ${{ EXTERNAL_REPOSITORY }}
-        publish_branch: ${{ PUBLISH_BRANCH }}
-        publish_dir: ${{ PUBLISH_DIR }}
+        deploy_key: ${ ACTIONS_DEPLOY_KEY }
+        external_repository: ${ EXTERNAL_REPOSITORY }
+        publish_branch: ${ PUBLISH_BRANCH }
+        publish_dir: ${ PUBLISH_DIR }
         commit_message: ${{ github.event.head_commit.message }}
