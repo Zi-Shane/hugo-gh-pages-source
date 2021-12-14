@@ -221,8 +221,11 @@ az aks create \
     --name tgbot \
     --node-count 2 \
     --generate-ssh-keys \
+    --node-vm-size Standard_B2s \
     --attach-acr tgbotReg
 ```
+
+參數也可以自行調整：[az aks create文件](https://docs.microsoft.com/en-us/cli/azure/aks?view=azure-cli-latest#az_aks_create)
 
 稍微等待他跑完...
 
