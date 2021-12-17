@@ -1,9 +1,9 @@
 +++
-title = "Use Golang to create RESTful API"
+title = "使用Golang來寫一個RESTful API"
 date = "2021-12-14"
 author = "Zi-Shane"
 tags = ["Golang"]
-description = "使用Golang來寫一個RESTful API"
+description = "使用Golang寫RESTful API套件使用紀錄"
 +++
 
 我的程式架構如下圖所示，Client可以通過api來讀寫資料庫中的資料。這篇文章主要是討論backend的部分要如何實現。
