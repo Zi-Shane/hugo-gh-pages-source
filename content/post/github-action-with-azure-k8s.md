@@ -14,7 +14,7 @@ description = "使用Github Action自動化部署到Azure kubernetes Cluster"
 ![](https://i.imgur.com/lNeXLJZ.png)
 
 
-一般來說database屬於Stateful的Application不太需要重啟，所以database的部分我採用手動的方式來管理（database不會隨著backend程式的重新部署而重啟），因此這篇文章主要是討論backend的部分要如何在release新版本時，觸發Github Action自動化部署到新版本到Azure Kubernetes Cluster上。
+一般來說database屬於Stateful的Application不太需要重啟，所以database的部分我採用手動的方式來管理（database不會隨著backend程式的重新部署而重啟），[MariaDB的部署請參考這篇的步驟](https://hackmd.io/@7X5kamZwR8yXzSdJtG50Fg/HJ-afK49F)。因此這篇文章主要是討論backend的部分要如何在release新版本時，觸發Github Action自動化部署到新版本到Azure Kubernetes Cluster上。
 
 想要嘗試看看本文的說明的話，程式碼在[這邊](https://github.com/Zi-Shane/api-project/tree/v1.0.1)有興趣可以跟著操作看看。
 
