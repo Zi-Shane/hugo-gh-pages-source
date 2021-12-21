@@ -6,7 +6,7 @@ tags = ["kubernetes", "CI/CD", "Github Action"]
 description = "使用Github Action自動化部署到Azure kubernetes Cluster"
 +++
 
-目的
+目標
 ---
 
 我的程式架構如下圖所示，Clent可以通過api來讀寫資料庫中的資料，本文章的目標是將backend部署到kubernetes上的過程交由Github Action自動化完成。  
